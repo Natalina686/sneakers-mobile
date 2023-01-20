@@ -1,0 +1,52 @@
+body {
+  font-family: "Sintony", sans-serif;
+}
+
+.container {
+  max-width: 320px;
+}
+
+.introduce {
+  background-image: url(/images/bg-introduce.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  position: relative;
+  height: 547px;
+}
+
+.introduce-title,
+.introduce-content {
+  font-family: "Tomorrow";
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 36.4px;
+  margin: 20px;
+}
+
+.introduce-title {
+  position: relative;
+}
+
+.intro {
+  position: relative;
+}
+
+.line {
+  width: 320px;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  align-self: flex-end;
+}
+
+.intro-button {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: black;
+  padding: 9px;
+  width: 130px;
+  height: 36px;
+  margin-bottom: 30pox;
+  margin-left: 20px;
+}
