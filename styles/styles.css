@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-  max-width: 320px;
+  width: 320px;
 }
 
 .introduce {
@@ -49,4 +49,18 @@ body {
   height: 36px;
   margin-bottom: 30pox;
   margin-left: 20px;
+}
+
+.usefull-cactus {
+  width: 280px;
+  height: 280px;
+  padding: 50px 20px 20px 20px;
+}
+
+.usefull-par {
+  font-family: "Sintony";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.4;
+  margin: 0 20px 50px;
 }
