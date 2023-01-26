@@ -6,12 +6,18 @@ body {
   width: 320px;
 }
 
+ul {
+  list-style: none;
+}
+
 .introduce {
-  background-image: url(/images/bg-introduce.jpg);
-  background-repeat: no-repeat;
   display: flex;
   position: relative;
   height: 547px;
+}
+
+.first {
+  background: rgba(95, 98, 76, 0.4);
 }
 
 .introduce-title,
@@ -23,10 +29,6 @@ body {
   margin: 20px;
 }
 
-.introduce-title {
-  position: relative;
-}
-
 .intro {
   position: relative;
 }
@@ -35,8 +37,13 @@ body {
   width: 320px;
   padding: 0;
   margin: 0;
-  display: inline-flex;
-  align-self: flex-end;
+  /* display: inline-flex;
+  align-self: flex-end; */
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: -1;
 }
 
 .intro-button {
@@ -49,6 +56,7 @@ body {
   height: 36px;
   margin-bottom: 30pox;
   margin-left: 20px;
+  cursor: pointer;
 }
 
 .usefull-cactus {
@@ -63,4 +71,192 @@ body {
   font-size: 20px;
   line-height: 1.4;
   margin: 0 20px 50px;
+}
+
+.second {
+  background: linear-gradient(
+        90deg,
+        rgba(138, 161, 149, 1),
+        rgba(51, 46, 11, 1)
+      )
+      fixed,
+    url(/images/bg-name.png) fixed;
+  background-size: cover;
+}
+
+.name-par {
+  font-family: "Tomorrow";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.4;
+  color: #ffffff;
+  padding: 30px 20px;
+}
+
+.white-img {
+  margin: 50px 20px 20px 20px;
+  width: 280px;
+  height: 280px;
+}
+
+.white-title {
+  font-family: "Sintony";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.4;
+  color: #000000;
+  margin: 0 20px 16px;
+}
+
+.white-par {
+  font-family: "Sintony";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #000000;
+  margin: 0 20px 54px;
+}
+
+.third {
+  height: 477px;
+  background-image: url(/images/cactus.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cactus-par {
+  font-family: "Tomorrow";
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.6;
+  color: #000000;
+  text-align: left;
+  width: 130px;
+  padding-right: 20px;
+  padding-left: 170px;
+  padding-top: 166px;
+  padding-bottom: 167px;
+}
+
+.forth {
+  background-image: url(/images/bg-forth.png);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.process-title {
+  font-family: "Tomorrow";
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.4;
+  color: #000000;
+  margin-left: 20px;
+}
+
+.process-par {
+  font-family: "Sintony";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #000000;
+  width: 259px;
+  margin-left: 20px;
+}
+
+.materials {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+}
+.materials ul {
+  padding-left: 20px;
+}
+
+.materials-title {
+  font-family: "Tomorrow";
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.4;
+  margin-left: 20px;
+}
+
+.materials-list {
+  padding-left: 0;
+  text-align: left;
+}
+
+.materials-name {
+  font-family: "Sintony";
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.materials-par {
+  font-family: "Sintony";
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.materials-list img {
+  width: 182px;
+  height: 173px;
+  margin-bottom: 20px;
+}
+
+.fifth {
+  background-image: url(/images/bg-sustain.png);
+  height: 320px;
+  display: flex;
+}
+
+.sustain-name {
+  font-family: "Tomorrow";
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.4;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 220px;
+  padding-bottom: 20px;
+}
+
+.main-footer {
+  margin-top: 0;
+  padding-top: 50px;
+  width: 320px;
+  background-image: url(/images/bg-footer.png);
+}
+
+.footer-list {
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+
+.footer-name {
+  padding-left: 20px;
+}
+
+.footer-button {
+  display: block;
+  margin-left: 20px;
+  background: #000000;
+  color: #ffffff;
+  margin-right: 22px;
+}
+
+.footer-logo {
+  display: flex;
+}
+
+.footer-list li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer-list li {
+  margin-bottom: 10px;
 }
